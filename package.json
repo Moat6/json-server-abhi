@@ -6,18 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/UmaSahni/project_data.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/UmaSahni/project_data/issues"
-  },
-  "homepage": "https://github.com/UmaSahni/project_data#readme",
+  },s1
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
