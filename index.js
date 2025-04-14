@@ -8,10 +8,10 @@ const port = process.env.PORT || 8080;
 const json = JSON.parse(fs.readFileSync(path.join(__dirname, "db.json"), "utf8"));
 
 const router = jsonServer.router({
-    statusInfo: { value: json.status },
-    dataInfo: json.data,
-    messageInfo: { value: json.message },
-    activityInfo: json.activity,
+    status: { status: json.status },
+    data: json.data,
+    message: { message: json.message },
+    activity: json.activity,
 });
 
 server.use(middlewares);
